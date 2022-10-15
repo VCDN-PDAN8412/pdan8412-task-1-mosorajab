@@ -242,7 +242,6 @@ namespace DDRacer
             }
 
         }
-
         private void OnKeyUP(object sender, KeyEventArgs e)
         {  // when the player releases the left or right key it will set the designated boolean to false
 
@@ -263,7 +262,6 @@ namespace DDRacer
             }
 
         }
-
         private void StartGame()
         {
             // thi sis the start game function, this function to reset all of the values back to their default state and start the game
