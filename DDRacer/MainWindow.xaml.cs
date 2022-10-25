@@ -147,6 +147,19 @@ namespace DDRacer
             //to clear items in list box 
             lsbRdm.Items.Clear();
         }
+
+        private void btnIdentifyingareas_Click(object sender, RoutedEventArgs e)
+        {
+           IdentifyingAreas ia = new IdentifyingAreas();
+            ia.ShowDialog(); 
+
+        }
+
+        private void btnFindingcallnumbers_Click(object sender, RoutedEventArgs e)
+        {
+           FindCallNums fcn = new FindCallNums();
+            fcn.ShowDialog();
+        }
     }
     }
 
